@@ -115,13 +115,14 @@ main{
 .introduction{
     height: 100%;
     width: 100%;
+    font-size: larger;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
 }
 
-.introductionold{
+/* .introductionold{
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -132,7 +133,7 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+} */
 
 
 footer {

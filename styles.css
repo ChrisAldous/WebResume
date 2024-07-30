@@ -92,24 +92,25 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100%;
-    width: 100%;
+    width: 80%;
+    /* background-color: aquamarine; */
 }
 
 .imagesection{
     height: 100%;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    /* background-color: red; */
     display: flex;
     width: 100%;
 }
 
 .imagesection img{
-    padding: 50px;
+    /* padding: 50px; */
     justify-self: center;
     align-self: center;
-    max-width: 100%;
-    height: auto;    
+    max-width: 70%;
+    max-height: 70%;    
 }
 
 .introduction{
@@ -121,19 +122,6 @@ main{
     display: flex;
     flex-direction: column;
 }
-
-/* .introductionold{
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} */
 
 
 footer {

@@ -123,6 +123,53 @@ main{
     flex-direction: column;
 }
 
+.proj {
+    height: 100%;
+    /* width: 75%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.projHead {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    margin-bottom: 50px;
+    font-size: 70px;
+    /* align-items: center; */
+}
+
+.projSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items:flex-start;
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.projSection li {
+    /* margin-left: 50px; */
+    font-size: larger;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.projSection li a {
+    text-decoration: none;
+    color: black;
+}
+
+.projSection li a:hover {
+    color:rgb(124, 124, 124)
+}
+
+.projSection p {
+    /* margin-left: 50px; */
+    padding-bottom: 20px;
+    width: 100%;
+}
 
 footer {
     width: 100%;
